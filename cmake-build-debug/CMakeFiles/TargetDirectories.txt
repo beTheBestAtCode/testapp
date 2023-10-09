@@ -1,0 +1,3 @@
+/Users/yashviradia/CLionProjects/testapp/cmake-build-debug/CMakeFiles/testapp.dir
+/Users/yashviradia/CLionProjects/testapp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/yashviradia/CLionProjects/testapp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
