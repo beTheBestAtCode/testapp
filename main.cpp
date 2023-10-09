@@ -1,6 +1,8 @@
 #include <iostream>
 #include <typeinfo>
 
+using namespace std;
+
 int main() {
     int i = 5;
     long l = 5000000;
@@ -13,9 +15,8 @@ int main() {
     auto a = 5.0;
 
 
-    // question during the tutorial
-    auto var = 625;
-    std::cout << typeid(var).name() << "\n"; // gives out "i" which means integer
+    // expression
+    cout << ui + a << endl;
 
     return 0;
 }
