@@ -2,10 +2,9 @@
 using namespace std;
 
 int main() {
-    unsigned int x = 3000;
-    unsigned int y = 30000;
-
-    cout << x - y << endl;
+    double d_number = 3.4;
+    int f_number = 1 - static_cast<int>(d_number);
+    cout << f_number << endl;
 
     return 0;
 }
