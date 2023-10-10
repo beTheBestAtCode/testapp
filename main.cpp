@@ -1,7 +1,12 @@
 #include <iostream>
-using namespace std;
+// other way
+using std::cout;
+using std::cin;
+using std::endl;
 
 int main() {
+    // better way of using namespace
+    using namespace std;
     int a;
     int b;
 
