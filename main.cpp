@@ -1,22 +1,19 @@
 #include <iostream>
-#include <typeinfo>
-
 using namespace std;
 
 int main() {
-    int i = 5;
-    long l = 5000000;
-    float f = 3.4;
-    double d = 3.00002;
-    bool b = true;
+    int b = 98;
+    int t = 116;
+    int a = 97;
+    int c = 99;
 
-    unsigned int ui = 5;
-
-    auto a = 5.0;
-
-
-    // expression
-    cout << ui + a << endl;
+    cout
+        << static_cast<char>(b)
+        << static_cast<char>(t)
+        << static_cast<char>(b)
+        << static_cast<char>(a)
+        << static_cast<char>(c)
+    << endl;
 
     return 0;
 }
