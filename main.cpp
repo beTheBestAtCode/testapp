@@ -2,9 +2,27 @@
 using namespace std;
 
 int main() {
-    double d_number = 3.4;
-    int f_number = 1 - static_cast<int>(d_number);
-    cout << f_number << endl;
+    int a;
+    int b;
+
+    cout << "Enter your first number: ";
+    cin >> a;
+
+    cout << "Enter your second number: ";
+    cin >> b;
+
+    cout << endl;
+
+    cout << "Here are your answers with there respective operations: " << endl;
+    cout << "--------------------------------------------------------" << endl;
+
+    cout << "Multiplication of both numbers is: " << a * b << endl;
+    cout << "Addition of both numbers is: " << a + b << endl;
+    cout << "Division of both numbers is: " << a / b << endl;
+    cout << "Subtraction of both numbers is: " << a - b << endl;
+    cout << a << " mod " << b << " is: " << a % b << endl;
+
+
 
     return 0;
 }
