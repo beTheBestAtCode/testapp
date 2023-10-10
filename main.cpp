@@ -2,18 +2,10 @@
 using namespace std;
 
 int main() {
-    int b = 98;
-    int t = 116;
-    int a = 97;
-    int c = 99;
+    unsigned int x = 3000;
+    unsigned int y = 30000;
 
-    cout
-        << static_cast<char>(b)
-        << static_cast<char>(t)
-        << static_cast<char>(b)
-        << static_cast<char>(a)
-        << static_cast<char>(c)
-    << endl;
+    cout << x - y << endl;
 
     return 0;
 }
